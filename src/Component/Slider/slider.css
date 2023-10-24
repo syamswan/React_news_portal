@@ -1,0 +1,23 @@
+.slick-prev:before, .slick-next:before {
+    color: red !important;
+}
+
+.MuiCardContent-root  {
+    position: absolute;
+    bottom: 0%;
+    background: #00000096;
+    width: 100%;
+    color: white !important;
+}
+
+.MuiTypography-root {
+    color: white !important;
+}
+.slick-next {
+    right: 10px !important;
+}
+
+.slick-prev {
+    left: 5px !important;
+    z-index: 999;
+}
